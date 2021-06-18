@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>A3P1 by Lindsey Martin</title>
+</head>
+
+<body>
+    <h1>A3P1 Lindsey's Flower Shop</h1>
+    <p>Welcome to Lindsey's Flower Shop, where you can find any flower arrangement you like.</p>
+    <p>This months specials:</p>
+    <form>
+        <table border="1" cellspacing="0" cellpadding="6" summary="Table of product images, prices & descriptions">
+            <tbody>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Please enter your name:<br><input type="text" id="txtName" name="txtName">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: center"><img src="Flower1.jpeg" alt="flower set 1" height="250" width="250"></td>
+
+                    <td>
+                        <p class="product"><b>Pink Rose White Lily Bouquet</b></p>
+                        <p style="font-weight: bold">$45.98</p>
+                        <p>This elegant white lily flower bouquet is a classic way to show someone you care with an affordable gift. The beauty of this freshly cut flowers centerpiece will add serenity to your home. Hand-delivered from a local florist, this arrangement features light-pink rose, chrysanthemum, statice, and lily blooms. This luxury white lilies bouquet features pops of color with whisper soft pink carnation blossoms and rose selections</p>
+                    </td>
+                    <td>Quantity:<br><input type="text" id="txtQ1" name="txtQ1"></td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: center"><img src="flower2.jpeg" alt="flower set 2" height="250" width="250"></td>
+
+
+                    <td>
+                        <p class="product"><b>Sunflower Mason Jar Bouquet</b></p>
+                        <p style="font-weight: bold">$56.99</p>
+                        <p>Feel as if you're walking through a field of sunflower blooms and more. These inexpensive mixed flowers bouquet will evoke sunshine that will brighten up any home or office or someone special and deserving! Warm fall hues, seasonal and fresh cut alstroemeria mix with colorful pom blossoms for a hand delivered farm inspired flower arrangement that's certain to make one smile. Both affordable and touching, it feels as though the countryside comes indoors with this display. The jar can be used afterwards for whatever your recipient wants! </p>
+                    </td>
+                    <td>Quantity:<br><input type="text" id="txtQ2" name="txtQ2"></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <input type="button" value="Process Order" id="btnProcess" onClick="var cusName = document.getElementById('txtName').value; 
+var strHtml; 
+strHtml ='Thank you for your order' + ' ' + cusName; 
+document.getElementById('receipt').innerHTML = strHtml;">
+
+        </p>
+
+    </form>
+    <div id="receipt">&nbsp;
+    </div>
+</body>
+
+</html>
