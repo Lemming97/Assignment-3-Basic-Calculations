@@ -1,4 +1,4 @@
-# Assignment-3-Basic-Calculations, JS
+# Assignment-3-Basic-Calculations
 Assignment-3-Basic-Calculations
 
 Copyright&copy; 2021 Lindsey Martin
