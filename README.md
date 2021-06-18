@@ -1,9 +1,9 @@
 # Assignment-3-Basic-Calculations
 Assignment-3-Basic-Calculations
 
-Copyright© 2021 Lindsey Martin
+Copyright&copy; 2021 Lindsey Martin
 
-Send Flowers for Flower Images & Descriptions. 
+<p><a href="https://www.sendflowers.com/">Send Flowers</a> for Flower Images & Descriptions.</p>
 
 <p>Part 1: Using a Products Form </p>
 <p>Part 2: Make it Functional</p>
