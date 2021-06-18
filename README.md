@@ -5,7 +5,7 @@ Copyright© 2021 Lindsey Martin
 
 Send Flowers for Flower Images & Descriptions. 
 
-Part 1: Using a Products Form 
-Part 2: Make it Functional
-Part 3: You Receive A Receipt
-Part 4: Change Your Prices and Pay Your Taxes
+<p>Part 1: Using a Products Form </p>
+<p>Part 2: Make it Functional</p>
+<p>Part 3: You Receive A Receipt</p>
+<p>Part 4: Change Your Prices and Pay Your Taxes</p>
